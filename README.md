@@ -22,6 +22,12 @@ const {x = A} = y || {};
 const {x = A} = {...y};
 ```
 
+## reduce without explicit `return`
 
-
+```javascript
+blbla.reduce((r, {key, val}) => ({
+  ...r,
+  [key]: val
+}));
+```
 
