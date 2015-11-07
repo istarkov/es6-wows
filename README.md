@@ -40,3 +40,17 @@ blbla.reduce((r, {key, val}) => ({
 const obj = {x: 1, y: 2, z: 3, w: 4};
 const b = (({ x: a, y: b, z: c }) => ({a, b, c}))(obj);
 ```
+
+# async await
+
+```javascript
+const sleep = async (timeout) => new Promise(r => setTimeout(r, timeout));
+
+const shome = async () => {
+  console.log(1);
+  await sleep(3000);
+  console.log(2);
+};
+
+shome();
+```
