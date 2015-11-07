@@ -1,5 +1,7 @@
 # es6 impressions
 
+There are a lot of really cool features in es6 here I place only IMHOWOW features!!!
+
 ## match expression like
 
 instead of nested ternary expressions or switch
