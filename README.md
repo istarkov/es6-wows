@@ -34,3 +34,9 @@ blbla.reduce((r, {key, val}) => ({
 }));
 ```
 
+## pick, pick and rename
+
+```javascript
+const obj = {x: 1, y: 2, z: 3, w: 4};
+const b = (({ x: a, y: b, z: c }) => ({a, b, c}))(obj);
+```
