@@ -1,7 +1,7 @@
 # es6 impressions
 
 There are a lot of really cool features in es6. 
-Here I place only *IMHOWOW* features!!!
+Here I place only *IMHOWOW* code blocks!!!
 
 ## match expression like
 
