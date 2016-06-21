@@ -54,3 +54,13 @@ const shome = async () => {
 
 shome();
 ```
+
+# Required values
+
+Want to require that people populate values in your JS functions? Self referential defaulting works.
+
+```javascript
+function foo(T=T) {}
+foo() // throws T can't resolve
+```
+
